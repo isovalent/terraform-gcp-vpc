@@ -24,7 +24,7 @@ module "main" {
     {
       description       = "Default internet gateway."
       destination_range = "0.0.0.0/0"
-      name              = "default-internet"
+      name              = "${var.name}-internet"
       next_hop_internet = "true"
       priority          = 1000
     },

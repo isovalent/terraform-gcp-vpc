@@ -22,6 +22,10 @@ variable "project_id" {
   type        = string
 }
 
+variable "mtu" {
+  default     = 1460
+  description = "mtu value for vpc"
+}
 variable "subnets" {
   description = "The list of subnets to create."
   type = list(object({

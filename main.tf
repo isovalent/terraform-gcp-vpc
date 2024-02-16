@@ -19,6 +19,7 @@ module "main" {
   network_name = var.name
   project_id   = var.project_id
   routing_mode = local.routing_mode
+  mtu          = var.mtu
 
   routes = [
     {

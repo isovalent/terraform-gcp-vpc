@@ -18,7 +18,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_main"></a> [main](#module\_main) | terraform-google-modules/network/google | 9.0.0 |
+| <a name="module_main"></a> [main](#module\_main) | terraform-google-modules/network/google | 9.1.0 |
 
 ## Resources
 

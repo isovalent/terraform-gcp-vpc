@@ -18,7 +18,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_main"></a> [main](#module\_main) | terraform-google-modules/network/google | 9.1.0 |
+| <a name="module_main"></a> [main](#module\_main) | terraform-google-modules/network/google | 13.0.1 |
 
 ## Resources
 
@@ -31,7 +31,7 @@ No resources.
 | <a name="input_mtu"></a> [mtu](#input\_mtu) | mtu value for vpc | `number` | `1460` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the VPC. | `string` | n/a | yes |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | The ID of the project in which to create the VPC. | `string` | n/a | yes |
-| <a name="input_subnets"></a> [subnets](#input\_subnets) | The list of subnets to create. | <pre>list(object({<br>    cidr        = string<br>    description = string<br>    name        = string<br>    region      = string<br>    secondary_ranges = list(object({<br>      cidr = string<br>      name = string<br>    }))<br>  }))</pre> | n/a | yes |
+| <a name="input_subnets"></a> [subnets](#input\_subnets) | The list of subnets to create. | <pre>list(object({<br/>    cidr        = string<br/>    description = string<br/>    name        = string<br/>    region      = string<br/>    secondary_ranges = list(object({<br/>      cidr = string<br/>      name = string<br/>    }))<br/>  }))</pre> | n/a | yes |
 
 ## Outputs
 
